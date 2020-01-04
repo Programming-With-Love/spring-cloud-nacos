@@ -12,9 +12,9 @@
     <groupId>com.cloud.nacos</groupId>
     <artifactId>nacos-api</artifactId>
     <packaging>jar</packaging>
-    <name>nacos-api服务消费Feign实现</name>
-    <description>nacos * 服务消费Feign实现</description>
-    <url>https://blog.csdn.net/qierkang</url>
+    <name>nacos-服务消费方</name>
+    <description>nacos * 服务消费方</description>
+    <url>https://www.qekang.com</url>
 
 
     <dependencies>
@@ -26,21 +26,23 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+        <!-- 如果使用feign调用需要导入 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.2</version>
-            <optional>true</optional>
-        </dependency>
+        <!-- 如果使用webclient调用需要导入 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cloud.nacos</groupId>
+            <artifactId>nacos-model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

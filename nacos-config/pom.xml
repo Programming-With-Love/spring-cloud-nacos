@@ -14,7 +14,7 @@
     <packaging>jar</packaging>
     <name>nacos-config配置中心服务</name>
     <description>nacos * 配置中心服务</description>
-    <url>https://blog.csdn.net/qierkang</url>
+    <url>https://www.qekang.com</url>
 
 
     <properties>

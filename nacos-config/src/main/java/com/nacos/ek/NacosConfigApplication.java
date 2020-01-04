@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * *********************************************************
  *
  * @Author <a href="mailto:xyqierkang@163.com">qierkang</a>
- * Blog: https://blog.csdn.net/qierkang
+ * Blog: https://www.qekang.com
  * @Title NacosConfigApplication.java
  * @Date Created in 2019-11-25 19:10
  * <p>Description: [ TODO ] </p>
@@ -36,7 +36,7 @@ public class NacosConfigApplication {
         @Value("${qierkang.title:}")
         private String title;
 
-        @GetMapping("/test")
+        @GetMapping("/hello")
         public String hello() {
             System.out.println("1111");
             return title;

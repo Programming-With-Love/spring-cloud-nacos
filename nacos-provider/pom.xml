@@ -12,9 +12,9 @@
     <groupId>com.cloud.nacos</groupId>
     <artifactId>nacos-provider</artifactId>
     <packaging>jar</packaging>
-    <name>nacos-provider提供者服务</name>
-    <description>nacos * 提供者服务</description>
-    <url>https://blog.csdn.net/qierkang</url>
+    <name>nacos-服务提供方</name>
+    <description>nacos * 服务提供方</description>
+    <url>https://www.qekang.com</url>
 
 
     <dependencies>
@@ -22,25 +22,9 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.alibaba.nacos</groupId>
-                    <artifactId>nacos-client</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba.nacos</groupId>
-            <artifactId>nacos-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-validator</artifactId>
-            <version>5.1.0.Final</version>
         </dependency>
     </dependencies>
 
