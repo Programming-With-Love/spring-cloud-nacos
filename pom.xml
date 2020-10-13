@@ -39,7 +39,7 @@
     </developers>
     <properties>
         <!-- Common Versions -->
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <javax-servlet-api>3.0</javax-servlet-api>
         <slf4j-api.version>1.7.25</slf4j-api.version>
         <lombok.version>1.18.2</lombok.version>
